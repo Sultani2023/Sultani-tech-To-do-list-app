@@ -1,0 +1,167 @@
+/* @media screen and (min-width: 375px) {
+
+
+
+
+} */
+
+    
+    
+    
+    
+ 
+  Header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    
+    
+  }
+
+  
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+      
+   
+    font-family: sans-serif,Arial;
+    
+}
+
+body{
+       
+  background-image:url('photos/images (55).jpeg');
+  background-size:cover;
+  backdrop-filter: blur(5px);
+
+  
+  
+}
+.text-lgtBlue {
+    color:rgb(27, 100, 109);
+}
+
+.left-space {
+
+
+    margin-left: 200px;
+   
+
+
+}
+.right-space {
+
+
+  margin-left: 120px;
+ 
+
+
+} 
+.para-space{
+  margin-top: 160px;
+
+
+}
+.btn-space{
+  margin-top: 115px;
+}
+
+li a  {
+  margin-top: 10px;
+
+  
+} 
+
+
+nav{
+    background-color: rgb(254, 254, 254);
+    box-shadow: 0 4px 8px 0 rgb(27, 99, 113);
+    border-radius: 19px;
+  
+
+}
+h1, h6{
+  
+  color:#10434A;
+  display: flex;
+  justify-content: center;
+  
+}
+
+
+
+
+/* .text-space {
+    margin-left: 0px;
+} */
+
+.google-link a:hover {
+    color:rgb(29, 119, 142);
+    
+
+    
+}
+
+  .subscription-input-group {
+    position: relative;
+    text-align: center;
+    max-width: 630px;
+    margin: 10px auto;
+}
+.subscription-input-group .subscription-input-form{
+  display: inline-block;
+  width: 630px;
+  height: 60px;
+  padding-left:30px;
+  font-size: 16px;
+  color: #a5adb3;
+  
+  border-radius:3px;
+  border:1px solid #fff;
+  box-shadow: 0 0px 10px rgba(21,19,19,.1);
+  -webkit-transition:0.3s linear;
+  -moz-transition:0.3s linear;
+  -o-transition:0.3s linear;
+  transition:0.3s linear;
+}
+.subscription-input-group:hover .subscription-input-form{
+  box-shadow: 0 5px 20px rgba(21,19,19,.4);
+}
+.register-btn {
+  position: absolute;
+  top: 0;
+  right: 0;
+  background: #EA7806;
+  display: inline-block;
+  width: 180px;
+  height: 60px;
+  line-height: 60px;
+  text-decoration: none;
+  border-top-right-radius:3px;
+  border-bottom-right-radius:3px;
+  text-transform:capitalize;
+  color: #fff;
+  font-size: 16px;
+  font-weight: 500;
+  border: 0;
+  border-color: #EA7806;
+  overflow: hidden;
+  cursor: pointer;
+  -webkit-transition:0.3s ease-in-out;
+  -moz-transition:0.3s ease-in-out;
+  -o-transition:0.3s ease-in-out;
+  transition:0.3s ease-in-out;
+}
+.register-btn:hover, .register-btn:focus, .register-btn:active {
+  text-decoration: none;
+  outline: none;
+}
+.register-btn:hover {
+  box-shadow:0 5px 10px rgba(71,71,71,.4);
+  background: #EA7806;
+}
+
+
+
